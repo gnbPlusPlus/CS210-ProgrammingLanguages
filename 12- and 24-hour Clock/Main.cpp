@@ -1,4 +1,3 @@
-
  /* Although we haven't learned about classes in C++ yet, I looked ahead in zyBooks and browsed online resources to construct a Clock class here.
   * I did this because it seemed like it was suggested in the "Help with Project 1" announcement to implement a class for this assignment,
   * and I was worried I might get points taken off if I only used functions and pass by references to variables, instead. Either way, this project was
@@ -77,6 +76,16 @@ void Clock::addHour() {
 void Clock::addMinute() {
 	min = (min + 1) % 60;  // min is incremented by 1, and it will "restart" as 00 when it reaches 60.
 
+	if (hour24 > 12) {
+		hour12 = hour24 - 12;
+	}
+	else if (hour24 == 0) {
+		hour12 = 12;
+	}
+	else {
+		hour12 = hour24;
+	}
+
 	if (hour24 >= 12) {
 		amPm = "PM";
 	}
@@ -91,6 +100,16 @@ void Clock::addMinute() {
 // Increments sec by 1 and assigns "AM" or "PM" to amPm in the event that addSecond() was called before addHour().
 void Clock::addSecond() {
 	sec = (sec + 1) % 60;  // sec is incremented by 1, and it will "restart" as 00 when it reaches 60.
+
+	if (hour24 > 12) {
+		hour12 = hour24 - 12;
+	}
+	else if (hour24 == 0) {
+		hour12 = 12;
+	}
+	else {
+		hour12 = hour24;
+	}
 
 	if (hour24 >= 12) {
 		amPm = "PM";
