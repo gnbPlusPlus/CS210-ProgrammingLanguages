@@ -1,9 +1,3 @@
-/*
- * Noelle Bishop
- * 04/07/24
- * Project Two for CS-210
- */
-
 #include <iostream>
 #include "Bank.h"
 
