@@ -1,8 +1,3 @@
-/*
- * Noelle Bishop
- * 03/24/2024
- * Project One for CS-210
- */
 
  /* Although we haven't learned about classes in C++ yet, I looked ahead in zyBooks and browsed online resources to construct a Clock class here.
   * I did this because it seemed like it was suggested in the "Help with Project 1" announcement to implement a class for this assignment,
