@@ -1,9 +1,3 @@
-/*
- * Noelle Bishop
- * 04/07/24
- * Project Two for CS-210
- */
-
 #pragma once
 #ifndef BANK_H
 #define BANK_H
