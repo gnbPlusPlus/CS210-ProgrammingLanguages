@@ -2,6 +2,7 @@
 A collection of the major work I accomplished in this title course at Southern New Hampshire University (SNHU).
 
 See below for my thoughts on Project One ("12- and 24-hour Clock").
+  -
 
 Summarize the project and what problem it was solving.
   - The objective of the project was to display accurate 12- and 24-hour clock displays to the user, based on their input of time in either 12- or 24-hour format. Beyond the initial input, the user has the continuous options of incrementing the seconds, minutes, and hours by 1. These actions repeat until the user is finished and enters a sentinel value. Although this was the first project, and the clocks neither tick in real-time nor does the program completely validate input, it was the first time I was tasked with creating a class in C++.
