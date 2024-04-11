@@ -1,8 +1,3 @@
-/*
- * Noelle Bishop
- * 04/07/24
- * Project Two for CS-210
- */
 
 /* For the table output, I tried to get the dollar sign flush up against the right-aligned numbers, but I could not figure out how to achieve this.
  * Maybe if I converted each calculation to a string with a dollar sign before it, that could work, but the output solution I found works
