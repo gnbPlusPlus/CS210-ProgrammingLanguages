@@ -126,7 +126,7 @@ void ItemTracker::PrintIndividualFrequency() {  // Displays the amount of times 
     DisplayMenu();
 }
 
-void ItemTracker::PrintItemsAndFrequencies() {  // Displays a list of every item and its frequency from a file.
+void ItemTracker::PrintItemsAndFrequencies() {  // Displays a list of every item and its frequency from a map.
     cout << "\n----------------------------------------" << endl;
     cout << "Overall Frequency for Every Grocery Item" << endl;
     cout << "----------------------------------------" << endl;
@@ -144,7 +144,7 @@ void ItemTracker::PrintItemsAndFrequencies() {  // Displays a list of every item
     DisplayMenu();
 }
 
-void ItemTracker::PrintHistogram() {  // Displays a histogram of every item and its frequency from a file.
+void ItemTracker::PrintHistogram() {  // Displays a histogram of every item and its frequency from a map.
     cout << "\n----------------------------------------------" << endl;
     cout << "Histogram for Every Grocery Item & Its Frequency" << endl;
     cout << "----------------------------------------------" << endl;
