@@ -1,9 +1,3 @@
-/*
- * Noelle Bishop
- * 04/21/24
- * Project Three for CS-210
- */
-
 // For this program, Driver.cpp simply directs the program to ItemTracker.cpp with function calls.
 
 #include "ItemTracker.h"
