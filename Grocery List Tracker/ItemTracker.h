@@ -1,9 +1,3 @@
-/* 
- * Noelle Bishop
- * 04/21/24
- * Project Three for CS-210
- */
-
 // The ItemTracker class establishes the map and functions used to keep track of grocery items and their frequencies.
 
 #pragma once
