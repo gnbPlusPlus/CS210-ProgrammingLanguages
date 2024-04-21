@@ -1,9 +1,3 @@
-/*
- * Noelle Bishop
- * 04/21/24
- * Project Three for CS-210
- */
-
 // Program that lets the user check frequencies of grocery items listed in a file.
 
 #include "ItemTracker.h"
